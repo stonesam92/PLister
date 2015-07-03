@@ -1,4 +1,4 @@
-# PLister
+# plcat
 
 A very simple tool for displaying Apple property lists at the command-line.
 
