@@ -5,7 +5,7 @@ ARCHS = armv7 arm64 armv7s
 
 include theos/makefiles/common.mk
 
-TOOL_NAME = plister
-plister_FILES = main.mm
+TOOL_NAME = plcat
+plcat_FILES = main.mm NSData+Base64.m NSDate+XMLRepr.m
 
 include $(THEOS_MAKE_PATH)/tool.mk
